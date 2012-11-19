@@ -1,15 +1,5 @@
-README
 
-Table of Contents
-1. Program Description
-2. Build Instructions
-3. Running All Tests
-4. Running the Carts Test Cases
-5. Test Coverage
-
-
-
-1. Program Description
+#Program Description
 
 The application provides a general, extensible API which can be used to setup 
 kinds of items (at runtime) and apply taxes to types of items (at runtime).  
@@ -36,9 +26,7 @@ details for three example shopping baskets.
 ** Javadoc for API is available in /doc **
 
 
-
-
-2. Build Instructions
+# Build Instructions
 
 You can build this project with Eclipse, or using Ant with the supplied build.xml file.
 
@@ -54,10 +42,7 @@ the "src" and "test" folders are sources for the project. Make sure that eclipse
 imported the jar files from the "lib" folder onto the classpath. 
 
 
-
-
-
-3. Running All Tests
+# Running All Tests
 
 This program comes with a fairly large suite of unit tests, and was developed with a 
 test-driven approach. 
@@ -68,10 +53,7 @@ run the tests with ant, cd to the project folder and type:
 	ant test
 
 
-
-
-
-4. Running the Carts Test Case
+# Running the Carts Test Case
 
 To run tests which simulate three shopping baskets, run 'InputTest' as a Junit test, or cd to the 
 project folder and type: 
@@ -86,10 +68,7 @@ This test outputs the receipt details to standard out (and asserts that all of t
 output values are correct). 
 
 
-
-
-
-5. Test Coverage
+# Test Coverage
 
 Cobertura has been used to generate test coverage documentation in /coverage.
 
